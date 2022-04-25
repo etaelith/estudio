@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== BOXICONS ===============-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Estudio Juridico LS</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">LS Estudio Juridico</a>
+
+        <div class="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="bx bx-home-alt-2"></i>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="bx bx-user"></i>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="bx bxs-book"></i>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">
+                <i class="bx bx-briefcase"></i>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="bx bx-message-dots"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- Change mode Light & Dark-->
+        <i class="bx bx-moon change-theme" id="theme-button"></i>
+      </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== HOME ===============-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <span class="home__greeting">Hola, somos</span>
+            <h1 class="home__name">Estudio Juridico</h1>
+            <h3 class="home__education">Soluciones Legales</h3>
+
+            <div class="home__buttons">
+              <a
+                target="_blank"
+                download=""
+                href="assets/pdf/Formularios.pdf"
+                class="button button--ghost"
+              >
+                Formularios
+              </a>
+              <a href="#about" class="button">Sobre Nosotros</a>
+            </div>
+          </div>
+
+          <div class="home__handle">
+            <img src="assets/img/perfil.png" alt="" class="home__img" />
+          </div>
+
+          <div class="home__social">
+            <a
+              href="https://twitter.com/3taelith"
+              target="_blank"
+              class="home__social-link"
+            >
+              <i class="bx bxl-twitter"></i
+            ></a>
+            <a
+              href="https://github.com/etaelith"
+              target="_blank"
+              class="home__social-link"
+            >
+              <i class="bx bxl-github"></i></a
+            ><a
+              href="https://etherscan.io/address/0x5c0db99e9b4bacd45df713fa0e8843664a8f9f25"
+              target="_blank"
+              class="home__social-link"
+              ><i class="bx bx-wallet"></i
+            ></a>
+          </div>
+
+          <a href="#about" class="home__scroll"
+            ><i class="bx bx-mouse home__scroll-icon"></i>
+            <span class="home__scroll-name">Scroll Down</span></a
+          >
+        </div>
+      </section>
+
+      <!--=============== ABOUT ===============-->
+      <section class="about section" id="about">
+        <span class="section__subtitle">Una introduccion</span>
+        <h2 class="section__title">Nosotros</h2>
+        <div class="about__container container grid">
+          <img src="assets/img/about.jpg" alt="" class="about__img" />
+
+          <div class="about__data">
+            <div class="about__info">
+              <div class="about__box">
+                <i class="bx bx-award about__icon"></i>
+                <h3 class="about__title">Experiencia</h3>
+                <span class="about__subtitle">2 Años trabajando</span>
+              </div>
+              <div class="about__box">
+                <i class="bx bx-briefcase about__icon"></i>
+                <h3 class="about__title">Completado</h3>
+                <span class="about__subtitle">12 Clientes</span>
+              </div>
+              <div class="about__box">
+                <i class="bx bx-support about__icon"></i>
+                <h3 class="about__title">Soporte</h3>
+                <span class="about__subtitle">Alerta 24/7</span>
+              </div>
+            </div>
+
+            <p class="about__description">
+              Contamos con un equipo de profesionales con una orientación multidisciplinaria, activamente comprometidos con el asesoramiento integral y eficaz.
+
+            </p>
+
+            <a href="#contact " class="button">Contact Me</a>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== SKILLS ===============-->
+      <section class="skills section" id="skills">
+        <span class="section__subtitle">Nuestra</span>
+        <h2 class="section__title">Experiencia</h2>
+
+        <div class="skills__container container grid">
+          <div class="skills__content">
+            <h3 class="skills__title">Derecho Previsional</h3>
+
+            <div class="skills__box">
+                <div class="skills__group">
+
+                  <div class="skills__data">
+                    <i class="bx bxs-badge-check"></i>
+                    <div>
+                      <h3 class="skills__name">Seguros</h3>
+                      <span class="skills__level">de vida</span>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="bx bxs-badge-check"></i>
+                    <div>
+                      <h3 class="skills__name">Sucesiones</h3>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Jubilaciones</h3>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="skills__group">
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Amparos</h3>
+                    <span class="skills__level">Medicos</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Amparos</h3>
+                    <span class="skills__level">Sociales</span>
+                  </div>
+                </div>
+                
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Accidentes</h3>
+                    <span class="skills__level">de transito</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__content">
+            <h3 class="skills__title">Pensiones</h3>
+
+            <div class="skills__box">
+              <div class="skills__group">
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Fuerza Armada</h3>
+                    <span class="skills__level">Argentina</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Servicio</h3>
+                    <span class="skills__level">Penitenciario</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skills__group">
+
+                <div class="skills__data">          
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Trabajadores</h3>
+                    <span class="skills__level">Portuarios</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">YPF</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== SERVICES ===============-->
+      <section class="services section">
+        <span class="section__subtitle">Nuestros Servicios</span>
+        <h2 class="section__title">Que ofrecemos</h2>
+
+        <div class="services__container container grid">
+          <div class="services__card">
+            <h3 class="services__title">
+              Derecho <br />
+              Previsional
+            </h3>
+
+            <span class="services__button">
+              Ver mas <i class="bx bx-chevrons-right services__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+
+                <h3 class="services__modal-title">Derecho Previsional</h3>
+                <p class="services__modal-description">
+                  Especialistas en jubilaciones y pensiones.
+                </p>
+
+                <ul class="services__modal-list">
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Detalle 1
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">Detalle 2</p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Detalle 3
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                     Detalle 4
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Detalle 5
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="services__card">
+            <h3 class="services__title">
+              Pensiones<br />
+            </h3>
+
+            <span class="services__button">
+              See more <i class="bx bx-chevrons-right services__icon"></i>
+            </span>
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+
+                <h3 class="services__modal-title">Pensiones</h3>
+                <p class="services__modal-description">
+                  Institución del Sistema Integrado de Jubilaciones y Pensiones
+                </p>
+
+                <ul class="services__modal-list">
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Detalle 1
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">Detalle 2</p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Detalle 3
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Detalle 4
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Detalle 5
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="services__card">
+            <h3 class="services__title">
+              Figura <br />
+              Juridica
+            </h3>
+
+            <span class="services__button">
+              See more <i class="bx bx-chevrons-right services__icon"></i>
+            </span>
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+
+                <h3 class="services__modal-title">Visual Designer</h3>
+                <p class="services__modal-description">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Quisquam, adipisci.
+                </p>
+
+                <ul class="services__modal-list">
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      I develop the user interface.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">Web page development</p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      I create ux element interactions
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      I position your company brand.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Design and mockups of products for companies
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== WORK ===============-->
+      <section class="work section" id="work">
+        <span class="section__subtitle">Nuestra informacion</span>
+        <h2 class="section__title">Que ofrecemos</h2>
+
+        <div class="work__filters">
+          <span class="work__item active-work" data-filter="all">All</span>
+          <span class="work__item" data-filter=".web">Rep</span>
+          <span class="work__item" data-filter=".movil">Just</span>
+          <span class="work__item" data-filter=".design">Vel</span>
+        </div>
+
+        <div class="work__container container grid">
+          <div class="work__card mix web">
+            <img src="assets/img/work1.jpg" alt="" class="work__img" />
+
+            <h3 class="work__title">Representacion</h3>
+            <a
+              href="https://testworks.online/"
+              target="_blank"
+              class="work__button"
+            >
+              Demo <i class="bx bx-right-arrow-alt work__icon"></i
+            ></a>
+          </div>
+
+          <div class="work__card mix movil">
+            <img src="assets/img/work2.jpg" alt="" class="work__img" />
+
+            <h3 class="work__title">Justicia</h3>
+            <a href="#" class="work__button"></a>
+            Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+          </div>
+
+          <div class="work__card mix design">
+            <img src="assets/img/work3.jpg" alt="" class="work__img" />
+
+            <h3 class="work__title">Velocidad</h3>
+            <a
+              href="https://lslawyertech.com/"
+              target="_blank"
+              class="work__button"
+            >
+              Demo <i class="bx bx-right-arrow-alt work__icon"></i
+            ></a>
+          </div>
+
+          <div class="work__card mix web">
+            <img src="assets/img/work4.jpg" alt="" class="work__img" />
+
+            <h3 class="work__title">Representacion</h3>
+            <a href="#" class="work__button"></a>
+            Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+          </div>
+
+          <div class="work__card mix movil">
+            <img src="assets/img/work5.jpg" alt="" class="work__img" />
+
+            <h3 class="work__title">Justicia</h3>
+            <a href="#" class="work__button"></a>
+            Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== TESTIMONIALS ===============-->
+      <section class="testimonial section">
+        <span class="section__subtitle">My clients say</span>
+        <h2 class="section__title">testimonial</h2>
+
+        <div class="testimonial__container container swiper">
+          <div class="swiper-wrapper">
+            <div class="testimonial__card swiper-slide">
+              <img
+                src="assets/img/testimonial1.png"
+                alt=""
+                class="testimonial__img"
+              />
+              <h3 class="testimonial__name">Juancito</h3>
+              <p class="testimonial__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Similique, quia totam. Beatae?
+              </p>
+            </div>
+            <div class="testimonial__card swiper-slide">
+              <img
+                src="assets/img/testimonial2.png"
+                alt=""
+                class="testimonial__img"
+              />
+              <h3 class="testimonial__name">Brad</h3>
+              <p class="testimonial__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Similique, quia totam. Beatae?
+              </p>
+            </div>
+            <div class="testimonial__card swiper-slide">
+              <img
+                src="assets/img/testimonial3.png"
+                alt=""
+                class="testimonial__img"
+              />
+              <h3 class="testimonial__name">Lewirs</h3>
+              <p class="testimonial__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Similique, quia totam. Beatae?
+              </p>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--=============== CONTACT ===============-->
+      <section class="contact section" id="contact">
+        <span class="section__subtitle">A un toque</span>
+        <h2 class="section__title">Contactanos</h2>
+
+        <div class="contact__container container grid">
+          <div class="contact__content">
+            <h3 class="contact__title">Comunicate</h3>
+
+            <div class="contact__info">
+              <div class="contact__card">
+                <i class="bx bx-envelope contact__card-icon"></i>
+                <h3 class="contact__card-title">Email</h3>
+                <span class="contact__card-data">Etaelithtest@gmail.com</span>
+
+                <a
+                  href="mailto:etaelithtest@gmail.com"
+                  target="_blank"
+                  class="contact__button"
+                  >Write me
+                  <i class="bx bxs-chevrons-right contact__button-icon"></i
+                ></a>
+              </div>
+
+              <div class="contact__card">
+                <i class="bx bxl-whatsapp contact__card-icon"></i>
+                <h3 class="contact__card-title">Whatsapp</h3>
+                <span class="contact__card-data">+549226435235</span>
+
+                <a
+                  href="https://api.whatsapp.com/send?phone=+549226435235&text=Hello, more information!"
+                  target="_blank"
+                  class="contact__button"
+                  >Write me
+                  <i class="bx bxs-chevrons-right contact__button-icon"></i
+                ></a>
+              </div>
+
+              <div class="contact__card">
+                <i class="bx bxl-facebook-circle contact__card-icon"></i>
+                <h3 class="contact__card-title">Messenger</h3>
+                <span class="contact__card-data">Nombre y Apellido</span>
+
+                <a
+                  href="https://m.me/tagfb"
+                  target="_blank"
+                  class="contact__button"
+                  >Write me
+                  <i class="bx bxs-chevrons-right contact__button-icon"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact__content">
+            <h3 class="contact__title">Dinos tu inquietud</h3>
+
+            <form action="" class="contact__form">
+              <div class="contact__form-div">
+                <label for="" class="contact__form-tag">Names</label>
+                <input
+                  type="text"
+                  placeholder="Insert your name"
+                  class="contact__form-input"
+                />
+              </div>
+              <div class="contact__form-div">
+                <label for="" class="contact__form-tag">Email</label>
+                <input
+                  type="email"
+                  placeholder="Insert your email"
+                  class="contact__form-input"
+                />
+              </div>
+
+              <div class="contact__form-div contact__form-area">
+                <label for="" class="contact__form-tag">Project</label>
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"
+                  placeholder="Write your project"
+                  class="contact__form-input"
+                ></textarea>
+              </div>
+
+              <button class="button">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+      <div class="footer__container container">
+        <h1 class="footer__title">LS Estudio Juridico</h1>
+
+        <ul class="footer__list">
+          <li>
+            <a href="#about" class="footer__link">About</a>
+          </li>
+          <li>
+            <a href="#work" class="footer__link">Projects</a>
+          </li>
+          <li>
+            <a href="#testimonial" class="footer__link">Testimonial</a>
+          </li>
+        </ul>
+
+        <ul class="footer__social">
+          <a href="" target="_blank" class="footer__social-link">
+            <i class="bx bxl-facebook-circle"></i>
+          </a>
+          <a href="" target="_blank" class="footer__social-link">
+            <i class="bx bxl-instagram"></i>
+          </a>
+          <a href="" target="_blank" class="footer__social-link"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+        </ul>
+
+        <span class="footer__copy"> &#169; Etaelith. All rights reserved </span>
+      </div>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
